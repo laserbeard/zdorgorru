@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="29" viewBox="0 0 20 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d5e4ed;
+        stroke: #75c20a;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #75c20a;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M600,795a6,6,0,0,1,6,6c0,3.314-2.686,11-6,11s-6-7.686-6-11A6,6,0,0,1,600,795Z" transform="translate(-590 -794)"/>
+  <rect id="Rounded_Rectangle_5" data-name="Rounded Rectangle 5" class="cls-2" y="9" width="20" height="20" rx="4" ry="4"/>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-3" d="M596,812l3,3,6-7" transform="translate(-590 -794)"/>
+</svg>

@@ -1,0 +1,31 @@
+/* scss/registration-step-complete-g/_registration-step-complete.scss */
+.registration-step-complete{
+		@include breakpoint($sm) {
+		    padding: 20px 0px;
+		}
+}
+
+.registration-step-complete__body{
+	// height: 600px;
+
+	border-radius: 8px;
+	background: #fff url(../img/registration-step-complete__body.png) 0 0 repeat-y;
+	padding-left: 24px;
+    padding-right: 13px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+	
+	@include breakpoint($sm) {
+		padding-left: 40px;
+		padding-right: 32px;
+	    padding-top: 36px;
+	    margin-bottom: 31px;
+	}
+
+	@include breakpoint($lg) {
+		margin-left: auto;
+	    margin-right: auto;
+	    width: 880px;
+	}
+}

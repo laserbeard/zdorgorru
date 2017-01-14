@@ -1,0 +1,103 @@
+/* scss/modules/_alphabet-list.scss */
+
+
+.alphabet-list__item{
+  position: relative;
+  min-height: 40px;
+
+}
+
+
+.alphabet-list__item--letter{
+
+  
+  display: none;
+  
+
+  @include breakpoint($sm){
+    font-size: 26px;
+    font-family: $sftr;
+    color: rgb(69, 74, 82);
+    line-height: 0.962;
+    position: absolute;
+    display: block;
+  }
+}
+
+
+.alphabet-list__item ul{
+  @include breakpoint($sm){
+    margin-left: 53px;
+    padding-bottom: 20px;
+  }
+}
+
+.alphabet-list__item--word {
+
+    font-size: 14px;
+    font-family: $sftsb;
+    color: #1a1a1a;
+    line-height: 1.714;
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 9px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+
+   @include breakpoint($sm){
+    font-family: $sftr;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    color: rgb(26, 26, 26);
+    line-height: 2.143;
+    cursor: pointer;
+  }
+}
+
+
+
+.alphabet-list-container{
+  padding-top: 10px;
+
+  @include breakpoint($sm){
+    padding-top: 0px;
+  }
+}
+
+
+.alphabet-list{
+
+  margin: 0 10px;
+
+  @include breakpoint($sm){
+    margin: 0;
+    float: left;
+    margin-left: 216px;
+    padding-top: 8px;
+  }
+
+  @include breakpoint($lg){
+    // margin-top: -19px;
+ }
+}
+
+
+
+
+
+
+
+.alphabet-list.alphabet-list-first{
+
+ 
+
+  @include breakpoint($sm){
+    
+    margin-left: 45px;
+  }
+
+   @include breakpoint($lg){
+     margin-left: 393px;
+   }
+}

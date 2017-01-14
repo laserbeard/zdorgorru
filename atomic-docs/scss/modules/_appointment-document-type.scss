@@ -1,0 +1,29 @@
+/* scss/modules/_appointment-document-type.scss */
+
+.appointment-document-type {
+  padding-top: 16px;
+  padding-bottom: 25px;
+  @include breakpoint($sm) {
+    padding-top: 23px;
+    padding-bottom: 25px;
+  }
+}
+
+.appointment-document-type__btn-help {
+  display: none;
+  @include breakpoint($sm) {
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    background-image: url(../img/appointment-document-type__btn-help.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    background-color: transparent;
+    margin-left: 14px;
+    margin-top: 9px;
+    outline: none;
+  }
+}

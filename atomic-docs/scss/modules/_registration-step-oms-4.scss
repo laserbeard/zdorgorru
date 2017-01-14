@@ -1,0 +1,55 @@
+/* scss/modules/_registration-step-oms-4.scss */
+
+.registration-step__confirmation {
+  	padding: 10px 10px 0px 10px;
+
+	@include breakpoint($sm) {
+	  	padding: 0 10px;
+	    padding-left: 352px;
+	    padding-right: 98px;
+	    padding-top: 17px;
+	}
+
+
+	@include breakpoint($lg) {
+		padding-left: 392px;
+    	padding-right: 0px;
+	}
+
+}
+
+.registration-step__confirmation-birth-label {
+  font-size: 12px;
+  font-family: $sftr;
+  color: rgb(103, 111, 122);
+  line-height: 1.5;
+  margin-bottom: 4px;
+
+  @include breakpoint($sm) {
+  	display: none;
+  }
+
+
+  @include breakpoint($lg) {
+  	display: block;
+  	font-size: 18px;
+  	font-family: $sftl;
+  	color: rgb(26, 26, 26);
+  	line-height: 1.2;
+  	margin-bottom: 18px;
+  }
+
+}
+
+
+
+
+.registration-step__confirmation-container{
+	position: relative;
+}
+
+.registration-step__confirmation-fields{
+	@include breakpoint($lg) {
+		
+	}
+}

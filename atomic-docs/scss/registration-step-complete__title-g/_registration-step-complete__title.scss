@@ -1,0 +1,18 @@
+/* scss/registration-step-complete__title-g/_registration-step-complete__title.scss */
+
+.registration-step-complete__title {
+  font-family: $sftl;
+  font-size: 18px;
+  background: url(../img/registration-step-complete__title.svg) 100% 0% no-repeat;
+  padding-right: 32px;
+  line-height: 32px;
+  letter-spacing: -.02em;
+  @include breakpoint($sm) {
+    background: url(../img/registration-step-complete__title.svg) 0% 0% no-repeat;
+    font-size: 32px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 0px;
+    padding-left: 44px;
+  }
+}

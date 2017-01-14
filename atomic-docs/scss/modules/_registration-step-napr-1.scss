@@ -1,0 +1,17 @@
+/* scss/modules/_registration-step-napr-1.scss */
+
+.registration-step__napravlenie{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 21px;
+
+   @include breakpoint($sm) {
+      margin-left: 45px;
+      width: 250px;
+   }
+
+   
+   @include breakpoint($lg) {
+     
+   }
+}

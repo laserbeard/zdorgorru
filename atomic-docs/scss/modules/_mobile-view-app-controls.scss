@@ -1,0 +1,60 @@
+/* scss/modules/_mobile-view-app-controls.scss */
+
+.mobile-view-app-controls {
+	display: none;
+    position: relative;
+    z-index: 101;
+	@include breakpoint($sm){
+		display: none;
+	}
+}
+
+.registration-step--expand .mobile-view-app-controls {
+    
+    display: inline;
+
+    @include breakpoint($sm){
+        display: none;
+    }
+}
+
+.mobile-view-app-controls__back-btn--top{
+	cursor: pointer;
+	position: fixed;
+    top: 4px;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    outline: none;
+    padding: 0;
+    background: url(../img/mobile-view-app-controls__back-btn--top.svg) no-repeat center center;
+    z-index: 101;
+}
+
+.mobile-view-app-controls__footer{
+	position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: #fff;
+}
+
+.mobile-view-app-controls-footer__back-btn{
+	cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: transparent;
+    border: 1px solid #99b1c5;
+    border-radius: 4px;
+    color: #454a52;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: $sftm;
+    padding: 0;
+    outline: none;
+}

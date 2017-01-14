@@ -1,0 +1,235 @@
+// /* scss/modules/_registration-step.scss */
+
+// .registration-step {
+	
+
+//   padding-top: 7px;
+
+//   @include breakpoint($sm) {
+//     padding-top: 0px;
+//   }
+
+// 	&.registration-step--expand{
+//     background-color: #d5e4ed;
+
+// 		@include breakpoint($sm) {
+			
+//       border-top: 1px solid #bedbed;
+//       border-bottom: 1px solid #bedbed;
+// 		}
+// 	}	
+// }
+
+// .registration-step__content{ 
+//   @include breakpoint($sm) {
+//     background-image: url('../img/registration-step.png');
+//     background-position: 0px 0px;
+//     background-repeat: repeat-y;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//   }
+// }
+
+
+
+
+// .registration-step.registration-step--first .registration-step__content{
+//    @include breakpoint($sm) {
+//     padding-top: 0;
+//     margin-top: 20px;
+//   }
+// }
+
+
+// .registration-step.registration-step--last .registration-step__content{
+//    @include breakpoint($sm) {
+//     background: transparent;
+//     padding-top: 0;
+//   }
+// }
+
+// .registration-step--last .registration-step__title{
+//     @include breakpoint($sm) {
+//       padding-top: 20px;
+//       background: url('../img/registration-step.png') repeat-y left;
+//     }
+// }
+
+
+// .registration-step--last .registration-step-value{
+//     @include breakpoint($sm) {
+//       padding-top: 20px;
+//     }
+// }
+
+// .registration-step__content.registration-step__content--tablet-desctop {
+//   display: none;
+
+//   @include breakpoint($sm) {
+//     display: block;
+    
+//   }
+// }
+
+
+
+
+// .registration-step__content.registration-step__content--mobile {
+  
+//   @include breakpoint($sm) {
+//     display: none;
+//   }
+// }
+
+
+
+
+
+
+// .registration-step__title{
+//   font-size: 12px;
+//   font-family: $sftr;
+//   color: rgb(103, 111, 122);
+//   line-height: 2;
+
+//   @include breakpoint($sm){
+//     font-family: $sftl;
+//     font-size: 18px;
+//     color: rgba(26, 26, 26, 0.502);
+//     line-height: 1.2;
+//     margin-bottom: 0px;
+//     float: left;
+//   }
+// }
+
+
+
+
+// .registration-step--expand .registration-step__title{
+//    color: rgb(26, 26, 26);
+// }
+
+
+
+
+
+
+
+// .registration-step__counter {
+//   font-size: 9px;
+//   font-family: $sftr;
+//   color: rgb(255, 255, 255);
+//   line-height: 1.2;
+//   height: 16px;
+//   width: 16px;
+//   line-height: 16px;
+//   text-align: center;
+//   display: inline-block;
+//   background: #b6c1cc;
+//   border-radius: 50%;
+//   margin-right: 3px;
+//   overflow: hidden;
+//   position: relative;
+//   vertical-align: middle;
+
+//   @include breakpoint($sm){
+//      margin-right: 10px;
+//    font-size: 18px;
+//     height: 32px;
+//     width: 32px;
+//     line-height: 32px;
+//   }
+
+// }
+
+
+// .registration-step--complete .registration-step__counter {
+ 
+
+//   &:before{
+//     background:#559e0d;
+//     content: url('../img/registration-step__counter--complete-xs.svg');
+//     display: block;
+//     position: absolute;
+//     top: 0px;
+//     left: 0px;
+//     height: 100%;
+//     width: 100%;
+
+//     @include breakpoint($sm){
+//       content: url('../img/registration-step__counter--complete.svg');
+//     }
+//   }
+// }
+
+// .registration-step--expand  .registration-step__counter{
+//   background:#1d68db;
+// }
+
+
+
+
+
+// .registration-step-value{
+
+// }
+
+
+
+// .registration-step__hidden{
+//   height: 0px;
+//   overflow: hidden;
+//   margin: 0 -10px;
+
+//   @include breakpoint($sm){
+//     margin: 0px;
+//   }
+// }
+
+
+
+
+
+
+
+// .registration-step-change-value-btn{
+
+//  font-size: 12px;
+//   font-family: $sftr;
+//   color: rgb(29, 104, 219);
+//   line-height: 1.5;
+//   border: 0;
+//   background-color: transparent;
+//   float: right;
+//   outline: none;
+//   cursor: pointer;
+
+//   @include breakpoint($sm){
+//     font-size: 14px;
+//   }
+
+//   @include breakpoint($lg){
+//     float: none;
+//     margin-left: 5px;
+//   }
+// }
+
+
+// .registration-step-change-value-btn__text-change{
+//   display: none;
+// }
+
+
+// .registration-step--complete .registration-step-change-value-btn__text-change{
+//   display: inline;
+// }
+
+// .registration-step-change-value-btn__text-select{
+//   display: inline-block;
+// }
+
+
+// .registration-step--complete 
+// .registration-step-change-value-btn__text-select{
+//   display: none;
+// }

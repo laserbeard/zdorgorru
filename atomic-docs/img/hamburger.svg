@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="17px" viewBox="0 0 52 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hamburger" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-path" fill="#f7f7f7" sketch:type="MSShapeGroup" x="0" y="0.0915" width="52" height="16"></rect>
+            <path d="M32,0.0915 L52,0.0915 L52,2.0915 L32,2.0915 L32,0.0915 L32,0.0915 Z M32,7.0915 L52,7.0915 L52,9.0915 L32,9.0915 L32,7.0915 L32,7.0915 Z M32,14.0915 L52,14.0915 L52,16.0915 L32,16.0915 L32,14.0915 L32,14.0915 Z" id="Прямоугольник_748_копия_2" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M17.78,1.7275 L16.36,0.3135 L10,6.67439958 L3.64,0.3135 L2.22,1.7275 L8.58309999,8.0915 L2.22,14.4555 L3.64,15.8695 L10,9.50860042 L16.36,15.8695 L17.78,14.4555 L11.4169,8.0915 L17.78,1.7275 Z" id="Прямоугольник_748_копия_4" fill="#000000" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

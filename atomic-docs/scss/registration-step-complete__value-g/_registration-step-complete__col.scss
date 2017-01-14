@@ -1,0 +1,42 @@
+/* scss/registration-step-complete__value-g/_registration-step-complete__col.scss */
+
+
+@include breakpoint($sm) {
+
+     .registration-step-complete__table{
+         display: table;
+         margin-left: 44px;
+     }
+
+     .registration-step-complete__col{
+         display: table-cell;
+         padding-right: 75px;
+         padding-bottom: 20px;
+     }
+
+
+     .registration-step-complete__col:last-child{
+
+         padding-right: 0px;
+     }
+
+     .registration-step-complete__table-row{
+         display: table-row;
+     }
+
+     .registration-step-complete__table-row:first-child .registration-step-complete__label{
+         display: none;
+     }
+
+     .registration-step-complete__table-row:first-child .registration-step-complete__col{
+         padding-top: 20px;
+     }
+
+     .registration-step-complete__table-row:first-child .registration-step-complete__value{
+         font-size: 20px;
+     }
+
+}
+
+
+

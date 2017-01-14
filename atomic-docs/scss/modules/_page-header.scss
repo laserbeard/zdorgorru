@@ -1,0 +1,306 @@
+/* scss/modules/_page-header.scss */
+
+.page-header {
+  text-align: center;
+  overflow: hidden;
+  background: #f7f7f7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 48px;
+  @include breakpoint($sm) {
+    height: 86px;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+  }
+  @include breakpoint($lg) {
+    width: 1200px;
+    padding-left: 14px;
+  }
+}
+
+.page-header.page-header--menu-open-xs {
+  height: 100%;
+}
+
+
+
+
+.page-header__hamburger {
+  position: absolute;
+  width: 20px;
+  height: 17px;
+  top: 17px;
+  right: 9px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-image: url(../img/hamburger.svg);
+  background-color: #f7f7f7;
+  @include breakpoint($sm) {
+    display: none;
+  }
+}
+
+.page-header--menu-open-xs .page-header__hamburger {
+  background-position: top left;
+}
+
+.page-header__title {
+  display: block;
+  min-width: 158px;
+  position: relative;
+  margin-top: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+  @include breakpoint($sm) {
+    display: inline-block;
+    min-width: 165px;
+    padding-top: 32px;
+    text-align: left;
+    margin-bottom: 0px;
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+.page-header-title__logo {
+  top: 0px;
+  left: 0px;
+  width: 158px;
+  height: 28px;
+  display: block;
+  margin: 0 auto 10px auto;
+  @include breakpoint($sm) {
+    position: absolute;
+    margin: 0px;
+  }
+  &>img {
+    width: 100%;
+  }
+}
+
+.page-header-title__city {
+  font-size: 14px;
+  font-family: $sftr;
+  color: rgb(29, 104, 219);
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1px;
+  margin-left: 16px;
+  @include breakpoint($sm) {
+    margin-left: 20px;
+    color: #1a1a1a;
+    margin-left: 25px;
+    border-bottom: 1px dashed #8b8b8b;
+    font-family: $sfdr;
+  }
+  &>i {
+    display: inline-block;
+    position: absolute;
+    left: -21px;
+    top: -2px;
+    height: 16px;
+    width: 12px;
+   
+
+    background-image: url(../img/city-flag.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include breakpoint($sm) {
+      left: -25px;
+      background-image: url(../img/spb-gerb.png);
+      height: 20px;
+      width: 17px;
+    }
+  }
+}
+
+.page-header__navigation {
+  padding-bottom: 25px;
+}
+
+.page-header-navigation__link {
+  font-size: 16px;
+  font-family: $sftm;
+  color: rgb(103, 111, 122);
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  padding: 26px 41px 22px 41px;
+  text-decoration: none;
+  &.page-header-navigation__link--active {
+    background: #e3eef5;
+    box-shadow: inset 4px 0px 0px #1d68db;
+    color: #1a1a1a;
+    @include breakpoint($sm) {
+        background: #f7f7f7;
+    }
+  }
+}
+
+.page-header-navigation__dropdown--sm {
+  @include breakpoint($sm) {
+    display: block;
+    float: left;
+    margin-left: 45px;
+    position: relative;
+  }
+
+
+   &:after{
+
+      @include breakpoint($sm) {
+        content: url('../img/page-header-navigation__dropdown--sm.svg');
+        position: absolute;
+        top: 33px;
+        right: 3px;
+      }
+
+      @include breakpoint($lg) {
+        content: none;
+      }
+
+    }
+
+}
+
+
+ .page-header-navigation__dropdown--sm .page-header-navigation__link {
+    
+    @include breakpoint($sm) {
+      font-size: 13px;
+      font-family: $sftm;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      line-height: 1.538;
+      padding-top: 34px;
+      padding-bottom: 33px;
+      padding-right: 25px;
+     
+      background: #f7f7f7;
+      padding-left: 10px;
+      
+      
+      
+      &.page-header-navigation__link--active {
+        display: inline-block;
+        box-shadow: inset 0px -4px 0px #1d68db;
+
+
+      }
+    }
+
+      @include breakpoint($lg) {
+        display: inline-block;
+        padding-left: 13px;
+        padding-right: 13px;
+        
+      }
+    }
+
+.page-header-navigation__link.page-header-navigation__link--help {
+  @include breakpoint($sm) {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: red;
+    padding: 0;
+    right: 204px;
+    top: 26px;
+    background: url(../img/help-icon.svg) no-repeat;
+    overflow: hidden;
+    padding-top: 32px;
+    font-size: 0px;
+  }
+  @include breakpoint($lg) {
+    position: static;
+    display: inline-block;
+    margin-top: 26px;
+    margin-left: 15px;
+    float: left;
+  }
+}
+
+.page-header-navigation__link.page-header-navigation__link--personal-account {
+  font-size: 16px;
+  font-family: $sftr;
+  color: white;
+  line-height: 1.125;
+  text-align: center;
+  background: #1d68db;
+  border-radius: 30px;
+  padding: 13px;
+  text-transform: none;
+  margin-top: 10px;
+  margin: 10px 15px 30px;
+  @include breakpoint($sm) {
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    float: right;
+    margin-top: 31px;
+    margin-right: 0px;
+    padding: 3px;
+    padding-left: 25px;
+    padding-right: 10px;
+    position: relative;
+  }
+  &>i {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    background-image: url(../img/account-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    @include breakpoint($sm) {
+      height: 12px;
+      width: 12px;
+      position: absolute;
+      left: 7px;
+      top: 6px;
+    }
+  }
+}
+
+.page-header-navigation__link.page-header-navigation__link--full-version {
+  font-size: 14px;
+  font-family: $sftr;
+  color: rgb(29, 104, 219);
+  text-transform: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  @include breakpoint($sm) {
+    display: none;
+  }
+}
+
+.page-header-navigation__text {}
+
+.page-header-navigation__text.page-header-navigation__text--phone {
+  display: block;
+  font-size: 14px;
+  font-family: $sftsb;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  text-align: center;
+  @include breakpoint($sm) {
+    display: none;
+  }
+  @include breakpoint($lg) {
+    display: block;
+    position: absolute;
+    right: 210px;
+    font-size: 16px;
+    margin-top: 37px;
+  }
+}

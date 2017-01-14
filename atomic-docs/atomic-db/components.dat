@@ -1,0 +1,458 @@
+[
+    {
+        "component": "sidebar",
+        "category": "readme",
+        "description": "You can change the order components are displayed by dragging and dropping them in the sidebar. You can also move a component to a different category by dragging and dropping it into that categories file list. All changes will also be reflected in your project files as well as the order of the @import style strings order!",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "settings",
+        "category": "readme",
+        "description": "By default Atomic Docs is set up for Scss component style files and PHP markup files. This however can be easily changed even after you have started your project. Clicking on the gear icon in the blue toolbar in the sidebar gives you the ability to change the style partial file extension (to .less for example) as well as the ability to change the markup component file extension (to .twig perhaps).",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "clickme",
+        "category": "jsExample",
+        "description": "You also have the option of adding a javascript file when you are creating and editing components. At the moment Atomic Docs expects the directory that your javascript files are located to be named \"js\". As is the case with the Scss files you will need to configure your build tool to compile the partial js files.",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "true"
+    },
+    {
+        "component": "reset",
+        "category": "base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "elements",
+        "category": "base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "page-layout",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": -5,
+        "has_js": "false"
+    },
+    {
+        "component": "page-header",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "true"
+    },
+    {
+        "component": "breakpoints-sass-function",
+        "category": "settings",
+        "description": "",
+        "backgroundColor": "",
+        "order": -6,
+        "has_js": "false"
+    },
+    {
+        "component": "breakpoints-vars",
+        "category": "settings",
+        "description": "",
+        "backgroundColor": "",
+        "order": -7,
+        "has_js": "false"
+    },
+    {
+        "component": "radio-button-group-switch",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "dropdown-selection-list",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 23,
+        "has_js": "false"
+    },
+    {
+        "component": "head",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "footer",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 22,
+        "has_js": "false"
+    },
+    {
+        "component": "clearfix",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": -12,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-oms",
+        "category": "modules",
+        "description": ".registration-step--expand - \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0447\u0442\u043e\u0431\u044b \u043e\u0442\u043a\u0440\u044b\u0442\u044c \u0448\u0430\u0433, \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0435\u0433\u043e \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u044b\u043c\n\n\n",
+        "backgroundColor": "",
+        "order": 6,
+        "has_js": "true"
+    },
+    {
+        "component": "registration-step-oms-2",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 8,
+        "has_js": "true"
+    },
+    {
+        "component": "mobile-view-app-controls",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 20,
+        "has_js": "true"
+    },
+    {
+        "component": "fonts",
+        "category": "base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-oms-1",
+        "category": "modules",
+        "description": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0430\u0448 \u0440\u0430\u0439\u043e\u043d",
+        "backgroundColor": "",
+        "order": 7,
+        "has_js": "true"
+    },
+    {
+        "component": "registration-step-oms-3-1",
+        "category": "modules",
+        "description": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0440\u0430\u0447\u0430 \u0438 \u0432\u0440\u0435\u043c\u044f (\u0432\u0440\u0430\u0447)",
+        "backgroundColor": "",
+        "order": 10,
+        "has_js": "true"
+    },
+    {
+        "component": "registration-step-oms-3",
+        "category": "modules",
+        "description": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0440\u0430\u0447\u0430 \u0438 \u0432\u0440\u0435\u043c\u044f",
+        "backgroundColor": "",
+        "order": 9,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-oms-3-2",
+        "category": "modules",
+        "description": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0440\u0430\u0447\u0430 \u0438 \u0432\u0440\u0435\u043c\u044f (\u0432\u0440\u0435\u043c\u044f)",
+        "backgroundColor": "",
+        "order": 11,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-oms-4",
+        "category": "modules",
+        "description": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435",
+        "backgroundColor": "",
+        "order": 12,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-calendar",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 19,
+        "has_js": "false"
+    },
+    {
+        "component": "multilevel-menu",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 18,
+        "has_js": "false"
+    },
+    {
+        "component": "appointment-document-type",
+        "category": "modules",
+        "description": "\u0411\u043b\u043e\u043a \u0441 \u043f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0430\u0442\u0435\u043b\u0435\u043c &quot;\u043f\u043e \u041e\u041c\u0421 \/ \u043f\u043e \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e&quot;",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-privacy-info",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 21,
+        "has_js": "false"
+    },
+    {
+        "component": "alphabet-list",
+        "category": "modules",
+        "description": "\u041c\u0435\u043d\u044e \u043f\u043e \u0430\u043b\u0444\u0430\u0432\u0438\u0442\u0443. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0440\u0430\u0439\u043e\u043d\u044b",
+        "backgroundColor": "",
+        "order": 17,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-value",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-change-value-btn",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--text",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--submit",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--calend",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--confirmation",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete",
+        "category": "registration-step-complete-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": -34,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__title",
+        "category": "registration-step-complete__title-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__label",
+        "category": "registration-step-complete__label-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__label--clinic",
+        "category": "registration-step-complete__label-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__label--doctor",
+        "category": "registration-step-complete__label-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": -39,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 6,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--clinic",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--username",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--doctor",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--date",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--number",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__create-account",
+        "category": "registration-step-complete__create-account-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": -45,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__value--apptype",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "ui-datepicker",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 24,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-tab",
+        "category": "registration-tabs-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": -48,
+        "has_js": "true"
+    },
+    {
+        "component": "registration-step-napr",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 13,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-napr-1",
+        "category": "modules",
+        "description": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u043e\u043c\u0435\u0440 \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f",
+        "backgroundColor": "",
+        "order": 14,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-napr-2",
+        "category": "modules",
+        "description": "\u0412\u044b\u0431\u0435\u0440\u0435\u0442\u0435 \u0432\u0440\u0430\u0447\u0430 \u0438 \u0432\u0440\u0435\u043c\u044f",
+        "backgroundColor": "",
+        "order": 15,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-napr-3",
+        "category": "modules",
+        "description": "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435",
+        "backgroundColor": "",
+        "order": 16,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--napravlenie",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-login-form",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 25,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-complete__col",
+        "category": "registration-step-complete__value-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": 7,
+        "has_js": "false"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "category": "modules",
+        "order": 3
+    },
+    {
+        "category": "readme",
+        "order": 4
+    },
+    {
+        "category": "jsExample",
+        "order": 5
+    },
+    {
+        "category": "settings",
+        "order": 0
+    },
+    {
+        "category": "base",
+        "order": 1
+    },
+    {
+        "category": "layout",
+        "order": 2
+    },
+    {
+        "category": "registration-step__input-g",
+        "order": 6
+    },
+    {
+        "category": "registration-step-complete-g",
+        "order": 7
+    },
+    {
+        "category": "registration-step-complete__label-g",
+        "order": 9
+    },
+    {
+        "category": "registration-step-complete__value-g",
+        "order": 10
+    },
+    {
+        "category": "registration-step-complete__title-g",
+        "order": 11
+    },
+    {
+        "category": "registration-step-complete__create-account-g",
+        "order": 12
+    },
+    {
+        "category": "registration-tabs-g",
+        "order": 13
+    }
+]

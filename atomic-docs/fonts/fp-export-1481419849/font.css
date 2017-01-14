@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SF UI Text';
+  src: url('SF-UI-Text-Light.eot'); /* IE9 Compat Modes */
+  src: url('SF-UI-Text-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('SF-UI-Text-Light.woff') format('woff'), /* Modern Browsers */
+       url('SF-UI-Text-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('SF-UI-Text-Light.svg#9fdff28c16dabb2da3ffe9319e6670c2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+

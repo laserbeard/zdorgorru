@@ -1,0 +1,454 @@
+/* scss/modules/_multilevel-menu.scss */
+
+.multilevel-menu{
+  @include breakpoint($sm){
+    float: left;
+    width: 250px;
+  }
+}
+
+.multilevel-menu.multilevel-menu--doctor{
+  @include breakpoint($sm){
+    float: none;
+    width: auto;
+    padding-left: 25px;
+  }
+
+  @include breakpoint($lg){
+    padding-left: 0px;
+    float: left;
+    width: 250px;
+  }
+}
+
+.multilevel-menu__load-more {
+  @include breakpoint($sm){
+    text-align: center;
+    padding-top: 12px;
+  }
+
+  @include breakpoint($lg){
+    text-align: left;
+  }
+}
+
+.multilevel-menu__load-more-btn{
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+
+  
+  @include breakpoint($xs-sm){
+    display: none;
+  }
+
+
+  @include breakpoint($sm){
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1d68db;
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+  }
+
+
+  @include breakpoint($lg){
+    text-transform: none;
+    margin-left: 46px;
+    border-bottom: 1px dashed #1d68db;
+  }
+
+}
+
+
+.multilevel-menu__load-more-btn-icon{
+
+  display: none;
+
+  @include breakpoint($sm-lg){
+    display: inline-block;
+    height:10px;
+    width: 14px;
+    margin-right: 10px;
+    background: url(../img/multilevel-menu__load-more-btn.svg) no-repeat center;
+  }
+}
+
+
+.multilevel-menu__load-more-btn-icon.multilevel-menu__load-more-btn-icon--active{
+  transform: rotate(180deg);
+}
+
+
+.multilevel-menu__item.multilevel-menu__item--inline-sm.multilevel-menu__item--hidden{
+  display: none;
+}
+
+
+.multilevel-menu__item.multilevel-menu__item--inline-sm.multilevel-menu__item--hidden.multilevel-menu__item--visible{
+   
+   display: block;
+
+   @include breakpoint($sm){
+      display: inline-block;
+    }
+
+
+    @include breakpoint($lg){
+      display: block;
+    }
+}
+
+
+.multilevel-menu__result{
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  background: #d2e3ee;
+
+  display: none;
+
+
+  @include breakpoint($sm){
+    position: static;
+    width: auto;
+    height: auto;
+    background: transparent;
+    padding-top: 14px;
+    padding-right: 0px;
+  }
+}
+
+
+
+
+
+.multilevel-menu__result.multilevel-menu__result--visible {
+  display: block;
+}
+
+
+.multilevel-menu__white-btn{
+    font-size: 14px;
+    font-family: $sftsb;
+    color: #1a1a1a;
+    line-height: 1.714;
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 9px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.multilevel-menu__white-btn-small-text{
+  font-size: 12px;
+    font-family: $sftr;
+    color: #676f7a;
+    display: block;
+    line-height: 23px;
+}
+
+
+
+.multilevel-menu__arrow-btn{
+  vertical-align: top;
+  display: block;
+  font-size: 15px;
+  font-family: $sftr;
+  color: rgb(26, 26, 26);
+  
+  
+  line-height: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 20px;
+  
+  @include breakpoint($sm){
+    margin-right: 0px;
+    // line-height: 2.8;
+    padding-left: 20px;
+    width: 225px;
+  }
+
+   @include breakpoint($lg){
+    width: 315px;
+  }
+  
+}
+
+
+
+.multilevel-menu__item--active .multilevel-menu__arrow-btn{
+  background: transparent;
+
+   @include breakpoint($sm){
+    
+    background: #1d68db;
+    color: #fff;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 38px;
+    line-height: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    position: relative;
+    overflow: visible;
+
+    
+    &:after{
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 19px 0 19px 10px;
+      border-color: transparent transparent transparent #1d68db;
+      position: absolute;
+      right: -10px;
+      top: 0px;
+    }
+  }
+}
+
+
+
+
+.multilevel-menu__item--active .multilevel-menu__arrow-btn.multilevel-menu__arrow-btn--pill-sm{
+  @include breakpoint($sm-lg){
+    background: #1d68db;
+    color: #fff;
+    border: 1px solid #1d68db;
+  }
+
+
+}
+
+
+
+.multilevel-menu__arrow-btn.multilevel-menu__arrow-btn--pill-sm{
+  @include breakpoint($sm-lg){
+    font-size: 12px;
+    color: #454a52;
+    background: #e3eef5;
+    display: inline-block;
+    width: auto;
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 27px;
+    border: 1px solid #9ab1c4;
+    border-radius: 12px;
+  }
+
+  
+}
+
+.multilevel-menu__item--active .multilevel-menu__arrow-btn.multilevel-menu__arrow-btn--pill-sm{
+
+   @include breakpoint($sm-lg){
+
+      &:after{
+        content: none;
+      }
+
+   }
+}
+
+
+
+
+.multilevel-menu__item--active .multilevel-menu__arrow-btn.multilevel-menu__arrow-btn--pill-sm:after{
+  @include breakpoint($sm-lg){
+    content: none;
+  }
+}
+
+
+
+.multilevel-menu__item--active .multilevel-menu__item{
+  background: #e1edf6;
+  padding: 0 10px;
+  border-bottom: 1px solid #d8dde6;
+}
+
+
+.multilevel-menu__item.multilevel-menu__item--active{
+    background: #d2e3ee;
+    
+    &:before{
+      transform: rotate(90deg);
+    }
+
+   @include breakpoint($sm){
+    
+
+    background: transparent;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   }
+}
+
+
+
+
+.multilevel-menu__item{
+  
+
+
+  background: #e1edf6;
+  padding: 0px 10px;
+  border-bottom: 1px solid #d8dde6;
+  position: relative;
+
+  &:before{
+    content: url(../img/multilevel-menu__arrow.svg);
+    position: absolute;
+    top: 13px;
+    right: 10px;
+  }
+
+  @include breakpoint($sm){
+    background: transparent;
+    border-bottom: 0;
+    padding: 0px 0px 0px 10px;
+
+    &:before{
+      content: none;
+    }
+
+  }
+}
+
+.multilevel-menu__item.multilevel-menu__item--inline-sm{
+
+  @include breakpoint($sm-lg){
+      padding: 0;
+      display: inline-block;
+      margin-left: 4px;
+      margin-bottom: 8px;
+  }
+}
+
+.multilevel-menu__item.multilevel-menu__item--inline-sm.multilevel-menu__item--active{
+  @include breakpoint($sm-lg){
+    padding: 0;
+  }
+}
+
+
+.multilevel-menu__info{
+  
+  display: none;
+
+  @include breakpoint($sm){
+    display: block;
+    width: 242px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8994a3;
+    padding: 68px 0px 0px 30px;
+    font-family: $sftr;
+  }
+
+}
+
+.multilevel-menu__info-title{
+font-size: 18px;
+font-family: $sftsb;
+line-height: 22px;
+
+}
+
+.multilevel-menu__info-link{
+  color: #1d68db;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.multilevel-menu__list{
+  
+  @include breakpoint($sm){
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 13px;
+  }
+
+}
+
+.multilevel-menu__result-list{
+
+
+  
+  
+  
+  overflow: hidden;
+
+  @include breakpoint($sm){
+    padding: 0;
+    position: static;
+    height: auto;
+    width: auto;
+    background: transparent;
+
+    width: 350px;
+    float: right;
+  }
+
+  @include breakpoint($lg){
+    width: 795px;
+    margin-right: 360px;
+  }
+}
+
+
+
+
+
+
+.multilevel-menu__result-list.multilevel-menu__result-list--doctor{
+
+  @include breakpoint($sm){
+    width: 670px;
+    margin-right: 0px;
+  }
+
+  @include breakpoint($lg){
+    width: 795px;
+  }
+}
+
+
+
+.multilevel-menu__result-list.multilevel-menu__result-list--clinic{
+
+  
+
+  @include breakpoint($xs-sm){
+    padding: 10px;
+  }
+
+  @include breakpoint($lg){
+    width: 435px;
+    margin-right: 360px;
+  }
+}
+
+
+.multilevel-menu__item--active .multilevel-menu__result-list{
+  height: auto;
+}
+
+
+
+.multilevel-menu--doctor.hidden{
+	display: none;
+}

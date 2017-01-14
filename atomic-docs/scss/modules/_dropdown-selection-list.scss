@@ -1,0 +1,101 @@
+.dropdown-selection-list {}
+
+.dropdown-selection-list__dropdown {
+  position: relative;
+}
+
+.dropdown-selection-list__toggle {
+  margin-bottom: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  user-select: none;
+  background-image: none;
+  display: inline-block;
+  font-weight: 400;
+  border: 1px solid #9ab1c4;
+  letter-spacing: -1px;
+  cursor: pointer;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  height: 46px;
+  padding: 10px 16px;
+  position: relative;
+  padding-left: 15px;
+  background-color: white;
+  color: #444;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+
+font-size: 16px;
+  font-family: "SF UI Text";
+  color: rgb(26, 26, 26);
+
+}
+
+.dropdown-selection-list__toggle:after{
+    content: '';
+    display: inline-block;
+    background-image: url(../img/dropdown-flag-icon.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 20px;
+    top: 12px;
+    right: 18px;
+    position: absolute;
+}
+
+
+
+
+.dropdown-selection-list__menu {
+  position: absolute;
+  top: 50px;
+  max-height: 400px;
+  z-index: 3;
+  padding: 0 !important;
+  border: 1px solid #9ab1c4;
+  border-radius: 6px;
+  background-color: white;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.dropdown-selection-list__option {
+  line-height: 1.3333333;
+  height: 46px;
+  position: relative;
+  width: 100%;
+  padding: 15px 15px;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.5s;
+
+  font-size: 15px;
+  font-family: "SF UI Text";
+  color: rgb(26, 26, 26);
+
+}
+
+
+
+
+.dropdown-selection-list__option:first-child {
+  border-radius: 6px 6px 0 0;
+}
+
+
+.dropdown-selection-list__label{
+    font-size: 12px;
+  font-family: "SF UI  Text";
+  color: rgb(26, 26, 26);
+  line-height: 1.2;
+  margin-bottom: 7px;
+}

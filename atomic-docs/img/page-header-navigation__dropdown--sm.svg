@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6" height="4" viewBox="0 0 6 4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ico_arrow_down_s.png_copy_3" data-name="ico_arrow_down_s.png copy 3" class="cls-1" d="M378,43h6l-3,4Zm6-3h-6" transform="translate(-378 -43)"/>
+</svg>

@@ -1,0 +1,9 @@
+/* scss/registration-tabs-g/_registration-tab.scss */
+
+.registration-tab{
+    display: none;
+}
+
+.registration-tab.registration-tab-active{
+    display: block;
+}

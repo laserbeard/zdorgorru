@@ -1,0 +1,44 @@
+/* scss/modules/_registration-step-value.scss */
+
+
+.registration-step-value{
+  font-size: 14px;
+  font-family: $sftsb;
+  color: rgb(103, 111, 122);
+  line-height: 1.714;
+  margin-left: 20px;
+  border-bottom: 1px solid #d8dde6;
+  padding-bottom: 10px;
+  @include breakpoint($sm){
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 0;
+    float: right;
+    width: 50%;
+  }
+  @include breakpoint($lg){
+    width: 795px;
+  }
+}
+
+.registration-step-value.registration-step-value--visible-xs{
+  @include breakpoint($sm){
+    display: none;
+  }
+}
+
+
+
+.registration-step--complete .registration-step-value__value{
+	color:#1a1a1a;
+}
+
+
+
+.registration-step--expand .registration-step-value{
+  display: none;
+}
+
+.registration-step-value__clinic-name{
+	
+}

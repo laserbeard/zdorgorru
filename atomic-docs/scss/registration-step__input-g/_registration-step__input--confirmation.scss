@@ -1,0 +1,24 @@
+/* scss/registration-step__input-g/_registration-step__input--confirmation.scss */
+
+
+.registration-step__input.registration-step__input--confirmation{
+    @include breakpoint($lg) {
+      float: left;
+      width: 31%;
+      margin-left: 3.5%;
+      &:first-child{
+        margin-left: 0;
+      }
+  }
+}
+
+
+.registration-step__input.registration-step__input--submit-confirmation{
+  @include breakpoint($sm) {
+      margin-bottom: 2px;
+    }
+    @include breakpoint($lg) {
+      width: 200px;
+      float: right;
+    }
+}

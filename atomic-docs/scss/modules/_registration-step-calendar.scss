@@ -1,0 +1,31 @@
+/* scss/modules/_registration-step-calendar.scss */
+
+
+.registration-step-calendar{
+	background-image: url(../img/appointment-registration-step-calendar--xs.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	min-height: 457px;
+	
+	@include breakpoint($sm) {
+  		background-image: url(../img/appointment-registration-step-calendar--sm.png);
+		margin-top: 20px;
+		min-height: 681px;
+  	}
+
+
+	@include breakpoint($lg) {
+		margin-top: 0px;
+		background-image: url(../img/appointment-registration-step-calendar--lg.png);
+		width: 795px;
+		min-height: 583px;
+		margin-left: 395px;
+	}
+
+}
+
+
+.registration-step-calendar.hidden{
+	display: none;
+}

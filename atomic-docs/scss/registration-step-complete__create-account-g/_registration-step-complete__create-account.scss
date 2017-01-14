@@ -1,0 +1,46 @@
+/* scss/registration-step-complete__create-account-g/_registration-step-complete__create-account.scss */
+
+.registration-step-complete__create-account{
+  @include breakpoint($lg) {
+  margin-left: auto;
+      margin-right: auto;
+      width: 880px;
+    }
+}
+
+.registration-step-complete__create-account-meesage{
+  font-size: 14px;
+  font-family: $sftr;
+  color: rgb(26, 26, 26);
+  line-height: 1.714;
+  margin-bottom: 23px;
+
+
+
+  @include breakpoint($sm) {
+  	color: #454a52;
+    font-size: 12px;
+    line-height: 18px;
+    float: right;
+    width: 277px;
+    margin-right: 135px;
+  }
+
+  @include breakpoint($lg) {
+	    margin-right: 314px;
+	}
+}
+
+.registration-step-complete__create-account-meesage > span{
+	font-family: $sftbi;
+}
+
+.registration-step__input--submit-create-account{
+
+ 	@include breakpoint($sm) {
+		float: left;
+    	width: 260px;
+	}
+
+
+}

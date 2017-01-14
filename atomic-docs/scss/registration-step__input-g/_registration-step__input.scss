@@ -1,0 +1,26 @@
+/* scss/registration-step__input-g/_registration-step__input.scss */
+.registration-step__input {
+  outline: none;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  font-family: $sftr;
+  color: rgb(26, 26, 26);
+  height: 48px;
+  width: 100%;
+  border: 1px solid rgb(154, 177, 196);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  @include breakpoint($sm) {
+  	margin-bottom: 16px;
+  }
+  @include breakpoint($lg) {
+  	margin-bottom: 21px;
+  }
+}
+
+
+.registration-step__input:focus{
+  border: 1px solid rgb(153,177,197);
+}
+
+

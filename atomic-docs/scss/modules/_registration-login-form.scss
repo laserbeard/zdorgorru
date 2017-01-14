@@ -1,0 +1,155 @@
+/* scss/modules/_registration-login-form.scss */
+
+.registration-login-form{
+	 padding-top: 48px;
+    padding-bottom: 116px;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+    @include breakpoint($sm) {
+      padding-top: 86px;
+      padding-bottom: 291px;
+
+      background: url(../img/registration-login-form.jpg) no-repeat center center;
+
+      
+    }
+}
+
+.registration-login-form__form{
+
+}
+
+
+
+.registration-login-form__legend{
+	font-size: 18px;
+  	font-family: $sftsb;
+  	color: rgb(26, 26, 26);
+  	line-height: 1.2;
+  	text-align: center;
+  	width: 100%;
+  	letter-spacing: -.02em;
+  	padding-bottom: 31px;
+  	padding-top: 59px;
+
+
+
+    @include breakpoint($sm) {
+      font-size: 32px;
+      font-family: $sftl;
+    }
+}
+
+.registration-login-form__table{
+  display: table;
+    height: 100%;
+    width: 100%;
+}
+
+
+.registration-login-form__table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+
+.registration-login-form__fields{
+	margin: 0 auto;
+    width: 250px;
+}
+
+
+.registration-login-form__footer{
+  background-color: #fff;
+  padding: 17px 0px;
+  position:absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.registration-login-form__footer-container{
+	background-image: url(../img/registration-login-form__footer-container.svg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+  margin: 0 auto;
+  height: 54px;
+  width: 294px;
+  padding-left: 64px;
+
+  @include breakpoint($sm) {
+    width: 708px;
+    padding-left: 82px;
+    height: 67px;
+  }
+}
+
+.registration-login-form__footer-text{
+	font-size: 16px;
+  font-family: $sftsb;
+  color: rgb(26, 26, 26);
+  line-height: 1.2;
+
+  @include breakpoint($sm) {
+    font-size: 26px;
+    font-family: $sftl;
+    line-height: 68px;
+    float: left;
+    margin-right: 19px;
+  }
+
+}
+
+
+.registration-login-form__footer-button{
+  border: 0px;
+  background: transparent;
+  text-decoration: none;
+
+  @include breakpoint($sm) {
+    border: 1px solid #9ab1c4;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 13px;
+    padding: 14px 20px;
+  }
+}
+
+.registration-login-form__footer-button-text-xs{
+  font-size: 13px;
+  font-family: $sftr;
+  color: rgb(29, 104, 219);
+  line-height: 1.2;
+  @include breakpoint($sm) {
+    display: none;
+  }
+}
+
+.registration-login-form__footer-button-text-sm{
+	display: none;
+
+  @include breakpoint($sm) {
+    display: inline;
+    font-size: 16px; 
+    font-family: $sftl;
+    color: rgb(69, 74, 82);
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+}
+
+
+
+
+.registration-step__input.registration-login-form__input{
+      margin-bottom: 20px;
+}

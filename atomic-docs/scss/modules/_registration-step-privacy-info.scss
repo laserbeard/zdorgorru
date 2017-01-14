@@ -1,0 +1,56 @@
+/* scss/modules/_registration-step-privacy-info.scss */
+
+
+
+
+.registration-step-privacy-info {
+	display: none;
+
+	@include breakpoint($sm) {
+		display: block;
+		position: absolute;
+		margin-left: 17px;
+	    width: 310px;
+	    bottom: 0px;
+	}
+
+	
+	@include breakpoint($lg) {
+		width: 565px;
+    	left: 392px;
+    	margin-left: 0px;
+	}
+}
+
+.registration-step-privacy-info__security {
+  font-size: 12px;
+  font-family: $sftr;
+  color: rgb(69, 74, 82);
+  line-height: 1.5;
+  padding-left: 33px;
+  margin-bottom: 10px;
+  background: url("../img/registration-step-privacy-info__security.svg") no-repeat 1px 4px;
+
+  	@include breakpoint($lg) {
+      margin-bottom: 9px;
+		  width: 258px;
+	    float: left;
+	    margin-right: 26px;
+	}
+}
+
+.registration-step-privacy-info__terms {
+  font-size: 12px;
+  font-family: $sftr;
+  color: rgb(69, 74, 82);
+  line-height: 1.5;
+
+  @include breakpoint($sm) {
+    padding-left: 33px;
+  }
+}
+
+.registration-step-privacy-info__terms-link {
+	color: #1d68db;
+	text-decoration: none;
+}

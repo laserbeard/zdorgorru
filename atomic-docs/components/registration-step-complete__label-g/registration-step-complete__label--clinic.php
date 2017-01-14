@@ -1,0 +1,2 @@
+<!-- components/registration-step-complete__label-g/registration-step-complete__label--clinic.php -->
+<div class="registration-step-complete__label registration-step-complete__label--clinic">Медучреждение</div>
