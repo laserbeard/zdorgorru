@@ -24,3 +24,24 @@
 }
 
 
+
+.registration-step__input-group .registration-step__input{
+  display: block;
+  float: left;
+}
+
+
+
+.registration-step__input--birth-day{
+  width: 22%;
+  margin-right: 6%;
+}
+
+.registration-step__input--birth-month{
+  width: 22%;
+  margin-right: 6%;
+}
+
+.registration-step__input--birth-year{
+  width: 44%;
+}

@@ -1,7 +1,8 @@
 /* scss/registration-step__input-g/_registration-step__input--confirmation.scss */
 
 
-.registration-step__input.registration-step__input--confirmation{
+.registration-step__input.registration-step__input--confirmation,
+.registration-step__input-group.registration-step__input--confirmation{
     @include breakpoint($lg) {
       float: left;
       width: 31%;
@@ -11,6 +12,8 @@
       }
   }
 }
+
+
 
 
 .registration-step__input.registration-step__input--submit-confirmation{

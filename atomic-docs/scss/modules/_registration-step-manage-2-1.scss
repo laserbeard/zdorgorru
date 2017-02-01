@@ -1,0 +1,191 @@
+/* scss/modules/_registration-step-manage-2-1.scss */
+.doctor-address{
+     color: #676f7a;
+     font-size: 12px;
+     padding-top: 11px;
+     padding-left: 12px;
+     padding-right: 12px;
+
+    @include breakpoint($sm){
+        padding-left: 0px;
+        padding-right: 0px;
+       
+        padding-top: 8px;
+        padding-bottom: 8px;
+  }
+}
+
+.doctor-item > li.doctor_info--appointment-manage{
+    @include breakpoint($sm){
+        padding-top: 8px;
+        max-width: 280px;
+    }
+}
+
+.doctor-from_date.doctor-from_date--appointment-manage{
+    @include breakpoint($sm){
+        padding-top: 8px;
+    }
+
+
+}
+
+.doctor-item-list.doctor-item-list--appointment-manage{
+   @include breakpoint($sm){
+        width: 710px;
+    }
+
+    @include breakpoint($lg){
+        width: 705px;
+        float: none;
+    }
+}
+
+
+.doctor-item > li.doctor_date--appointment-manage{
+    @include breakpoint($sm){
+        padding-right: 0px;
+    }
+}
+
+.doctor-item > li.doctor_time--appointment-manage{
+    @include breakpoint($sm){
+        margin: 0 16px;
+    }
+}
+
+.doctors-item-list.doctors-item-list--appointment-manage{
+    @include breakpoint($sm){
+        margin-top: 10px;
+    }
+}
+
+
+
+.registration-step__counter.registration-step__counter--appointment-manage{
+    display: none;
+
+    @include breakpoint($sm){
+        display: inline-block;
+    }
+}
+
+.registration-step-value.registration-step-value--appointment-manage{
+    margin-left: 0px;
+    @include breakpoint($sm){
+        position: relative;
+        padding-bottom: 0px;
+    }
+    
+    @include breakpoint($lg){
+        width: 360px;
+        margin-right: 240px;
+    }
+}
+
+.registration-step-value.registration-step-value--appointment-manage.registration-step-value--appointment-manage-doctor{
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.doctor-item.doctor-item--appointment-manage {
+    @include breakpoint($xs-sm) {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 96px;
+    }
+}
+
+.doctor-item__btn.doctor-item__btn--appointment-manage{
+    @include breakpoint($xs-sm) {
+        opacity: 1;
+    }
+}
+
+.doctor_btn--appointment-manage{
+     @include breakpoint($xs-sm) {
+       left: 12px;
+       right: 12px;
+       bottom: 12px;
+       height: 31px;
+       position: absolute;
+    }
+}
+
+
+.doctor-time.doctor-time--appointment-manage{
+     @include breakpoint($xs-sm) {
+        padding: 4px 14px;
+        border: 2px solid #a8d66b;
+        border-radius: 30px;
+        font-size: 14px;
+        position: static;
+     }
+}
+
+.doctor-from_date.doctor-from_date--appointment-manage{
+    @include breakpoint($xs-sm) {
+        position: static;
+    }
+}
+
+.doctor_time--appointment-manage{
+    @include breakpoint($xs-sm) {
+        position: absolute;
+        bottom: 56px;
+        left: 95px;
+
+    }
+}
+
+
+.doctor_date--appointment-manage{
+    @include breakpoint($xs-sm) {
+        position: absolute;
+        bottom: 62px;
+        left: 13px;
+    }
+}
+
+.registration-step-change-value-btn.registration-step-change-value-btn--appointment-manage{
+     @include breakpoint($sm) {
+         position: absolute;
+        top: 2px;
+        right: 0px;
+     }
+    
+}
+
+
+
+.registration-step--first.registration-step--appointment-manage{
+    @include breakpoint($sm){
+        padding-top: 20px;
+    }
+}
+
+
+
+.registration-step--appointment-manage.registration-step--last{
+    margin-bottom: 100px;
+}
+
+
+.registration-step-value__value--appointment-manage{
+    
+    color: #1a1a1a;
+
+    @include breakpoint($sm){
+	   display: block;
+        width: 260px;
+        
+        margin-top: -8px;
+    }
+}
+
+.registration-step__content--appointment-manage{
+    @include breakpoint($lg){
+        margin-left: 238px;
+    }
+}

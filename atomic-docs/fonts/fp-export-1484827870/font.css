@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Code Light';
+  src: url('CODE Light.eot'); /* IE9 Compat Modes */
+  src: url('CODE Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CODE Light.woff') format('woff'), /* Modern Browsers */
+       url('CODE Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CODE Light.svg#df838d10753ef83b07b73ceb962b3ea2') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+

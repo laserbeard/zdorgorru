@@ -12,6 +12,10 @@
       border-bottom: 1px solid #bedbed;
     }
   }
+
+  &.registration-step--first{
+    
+  }
 }
 
 .registration-step__content {
@@ -90,7 +94,8 @@
   }
 }
 
-.registration-step--expand .registration-step__title {
+.registration-step--expand .registration-step__title,
+.registration-step--appointment-manage .registration-step__title{
   color: rgb(26, 26, 26);
 }
 
@@ -229,7 +234,8 @@
   display: none;
 }
 
-.registration-step--complete .registration-step-change-value-btn__text-change {
+.registration-step--complete .registration-step-change-value-btn__text-change,
+.registration-step--appointment-manage .registration-step-change-value-btn__text-change {
   display: inline;
 }
 
@@ -237,6 +243,7 @@
   display: inline-block;
 }
 
-.registration-step--complete .registration-step-change-value-btn__text-select {
+.registration-step--complete .registration-step-change-value-btn__text-select,
+.registration-step--appointment-manage .registration-step-change-value-btn__text-select {
   display: none;
 }

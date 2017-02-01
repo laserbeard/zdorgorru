@@ -30,12 +30,35 @@
                 					" placeholder="Имя">
                 
                 <!-- Date -->
-                					<input type="date" name="calendar" value="2012-06-01" 
-                                    class="
-                                    registration-step__input
-                					registration-step__input--calend
-                                    registration-login-form__input
-                					" placeholder="01 сен 1960">
+                
+                                    <div class="registration-step__input-group">
+                					
+                    					<input type="number" name="day" value="" 
+                                        class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-day
+                                        registration-login-form__input
+                    					" placeholder="01">
+                    					
+                    					
+                    					<input type="number" name="month" value="" 
+                                        class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-month
+                                        registration-login-form__input
+                    					" placeholder="05">
+                    					
+                    					<input type="number" name="year" value="" 
+                                        class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-year
+                                        registration-login-form__input
+                    					" placeholder="1960">
+                					
+                					</div>
                 <!-- Submit -->				
                 					<input type="submit" class="
                     registration-step__input
@@ -55,23 +78,7 @@
 
 
 
-    <div class="registration-login-form__footer">
-
-                <div class="registration-login-form__footer-container">
-                
-                    <div class="registration-login-form__footer-text">
-                        Все ваши записи в 
-            одном месте
-                    </div>
-
-                    <a href="#" class="registration-login-form__footer-button">
-                        <span class="registration-login-form__footer-button-text-xs">Зарегистрировать личный кабинет</span>
-                        <span class="registration-login-form__footer-button-text-sm">Создать кабинет</span>
-                    </a>
-
-                </div>
-                
-            </div>
+    
 
 
 

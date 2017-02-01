@@ -1,0 +1,104 @@
+/* scss/modules/_modal-dialog.scss */
+
+.modal-dialog{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+
+}
+
+.modal-dialog__overlay{
+	background-color: rgba(69, 74, 82, .6);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.modal-dialog__table{
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.modal-dialog__table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.modal-dialog__window{
+	margin: 0 10px;
+	background: #fff;
+	border-radius: 8px;
+	position: relative;
+
+	@include breakpoint($sm) {
+    	width: 318px;
+    	margin: 0 auto;
+  	}
+}
+
+.modal-dialog__content{
+	padding: 16px;
+}
+
+
+.modal-dialog__title{
+	font-size: 26px;
+	color: #1a1a1a;
+	font-family: $sftl;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 14px;
+    margin-bottom: 27px;
+}
+
+.modal-dialog__button{
+	font-family: $sftm;
+	font-size: 16px;
+	color: #454a52;
+	text-transform: uppercase;
+	border-width: 1px;
+  	border-color: rgb(154, 177, 196);
+  	border-style: solid;
+  	border-radius: 4px;
+  	background: transparent;
+  	padding: 14px;
+  	outline: none;
+  	cursor: pointer;
+
+  	&:hover{
+  		border-color:#454a52;
+  	}
+}
+
+.modal-dialog__button.modal-dialog__button--50{
+	width: 48%;
+	display: block;
+    float: left;
+}
+
+.modal-dialog__button.modal-dialog__button--50:first-child{
+	margin-right: 4%;
+}
+
+.modal-dialog__close{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    border: 0px;
+    background: url(../img/modal-dialog__close.svg) no-repeat center center transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+

@@ -20,4 +20,6 @@
 
 <script src="js/registration-tab.js"></script>
 
+<script src="js/modal-dialog.js"></script>
+
 

@@ -84,7 +84,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 23,
+        "order": 27,
         "has_js": "false"
     },
     {
@@ -100,7 +100,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 22,
+        "order": 26,
         "has_js": "false"
     },
     {
@@ -132,7 +132,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 20,
+        "order": 24,
         "has_js": "true"
     },
     {
@@ -188,7 +188,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 19,
+        "order": 23,
         "has_js": "false"
     },
     {
@@ -196,7 +196,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 18,
+        "order": 22,
         "has_js": "false"
     },
     {
@@ -212,7 +212,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 21,
+        "order": 25,
         "has_js": "false"
     },
     {
@@ -220,7 +220,7 @@
         "category": "modules",
         "description": "\u041c\u0435\u043d\u044e \u043f\u043e \u0430\u043b\u0444\u0430\u0432\u0438\u0442\u0443. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0440\u0430\u0439\u043e\u043d\u044b",
         "backgroundColor": "",
-        "order": 17,
+        "order": 21,
         "has_js": "false"
     },
     {
@@ -388,7 +388,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 24,
+        "order": 28,
         "has_js": "false"
     },
     {
@@ -444,7 +444,7 @@
         "category": "modules",
         "description": "",
         "backgroundColor": "",
-        "order": 25,
+        "order": 29,
         "has_js": "false"
     },
     {
@@ -453,6 +453,70 @@
         "description": "",
         "backgroundColor": "",
         "order": 7,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-manage",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 17,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-manage-1",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 18,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-manage-2",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 19,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step__input--manage-name",
+        "category": "registration-step__input-g",
+        "description": "",
+        "backgroundColor": "",
+        "order": -59,
+        "has_js": "false"
+    },
+    {
+        "component": "registration-step-manage-2-1",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 20,
+        "has_js": "false"
+    },
+    {
+        "component": "appintment-manage-empty",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 31,
+        "has_js": "false"
+    },
+    {
+        "component": "modal-dialog",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 32,
+        "has_js": "true"
+    },
+    {
+        "component": "registration-login-form__footer",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 30,
         "has_js": "false"
     }
 ]

@@ -40,7 +40,32 @@
 				<div class="registration-step__confirmation-fields">
 				
 				    <?php  include 'components/registration-step__input-g/registration-step__input--text.php'; ?>
-				    <?php  include 'components/registration-step__input-g/registration-step__input--calend.php'; ?>
+				    
+				    <div class="registration-step__input-group registration-step__input--confirmation">
+                					
+                    					<input type="number" name="day" value="" class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-day
+                                        registration-login-form__input
+                    					" placeholder="01">
+                    					
+                    					
+                    					<input type="number" name="month" value="" class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-month
+                                        registration-login-form__input
+                    					" placeholder="05">
+                    					
+                    					<input type="number" name="year" value="" class="
+                                        registration-step__input
+                    					registration-step__input--number
+                    					registration-step__input--birth-year
+                                        registration-login-form__input
+                    					" placeholder="1960">
+                					
+                	</div>
 				</div>
 
 				

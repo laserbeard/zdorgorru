@@ -53,7 +53,21 @@ body {
 
 .page-header-container {}
 
-.page-layout__content {}
+.page-layout__content {
+
+}
+
+
+.page-layout__content.page-layout__content--with-footer{
+    min-height: 100%;
+    padding-bottom: 88px;
+    position: relative;
+}
+
+.page-content.page-content--with-footer{
+  position: relative;
+  
+}
 
 .page-container {
   margin: 0 auto;
