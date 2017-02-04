@@ -51,7 +51,7 @@
 
 .registration-step--last .registration-step-value {
   @include breakpoint($sm) {
-    padding-top: 20px;
+    padding-top: 24px;
   }
 }
 
@@ -192,6 +192,14 @@
     height: auto;
     width: auto;
   }
+}
+
+.registration-step__hidden.registration-step__hidden--confirmation{
+    @include breakpoint($lg) {
+      padding-top: 0px;
+      position: relative;
+      top: -45px;
+    }
 }
 
 .registration-step--expand .registration-step-hidden__scroll {

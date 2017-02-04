@@ -24,6 +24,8 @@
     float: right;
     width: 277px;
     margin-right: 135px;
+
+    padding-top: 5px;
   }
 
   @include breakpoint($lg) {

@@ -144,7 +144,7 @@
 										0
 									</span>
 									<span class="doctor-ticketsoff__value-sm">
-										нет талонов
+										Нет талонов
 									</span>
 								</div>
 							</li>
@@ -268,7 +268,7 @@
 										0
 									</span>
 									<span class="doctor-ticketsoff__value-sm">
-										нет талонов
+										Нет талонов
 									</span>
 								</div>
 							</li>
@@ -386,7 +386,7 @@
 										0
 									</span>
 									<span class="doctor-ticketsoff__value-sm">
-										нет талонов
+										Нет талонов
 									</span>
 								</div>
 							</li>
@@ -504,7 +504,7 @@
 										0
 									</span>
 									<span class="doctor-ticketsoff__value-sm">
-										нет талонов
+										Нет талонов
 									</span>
 								</div>
 							</li>
@@ -622,7 +622,7 @@
 										0
 									</span>
 									<span class="doctor-ticketsoff__value-sm">
-										нет талонов
+										Нет талонов
 									</span>
 								</div>
 							</li>

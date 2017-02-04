@@ -29,7 +29,7 @@
 </div>
 <div class="clearfix">
 </div>
-<div class="registration-step__hidden">
+<div class="registration-step__hidden registration-step__hidden--confirmation">
 	<div class="registration-step-hidden__scroll">
 		<div class="registration-step__confirmation-container">
 			<div class="registration-step__confirmation">

@@ -136,6 +136,12 @@
   }
 }
 
+.doctor-item-list > li.registration-form {
+   @include breakpoint($sm) {
+    padding-top: 0px;
+   }
+}
+
 .doctor-item-list > li:first-child {
   border-top: 0;
 }
@@ -390,11 +396,11 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 18px;
+    font-family: $sftl;
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding-top: 14px;
   }
 }
 
@@ -445,6 +451,9 @@ li.registration-form {
     background: transparent;
   }
 }
+
+
+
 
 li.registration-form:after {
   display: block;
@@ -563,6 +572,7 @@ li.registration-form:after {
 .timedesk li.doctor-time {
   cursor: pointer;
   position: static;
+  font-size: 14px;
   @include breakpoint($xs-sm) {
     width: 100%;
     background: #fff;
@@ -634,11 +644,12 @@ li.doctor-time.timedesk_item-disabled:hover {
 }
 
 .registration-form_final-date {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .registration-form_final .little-text {
   margin-top: 24px;
+  font-weight: 700;
 }
 
 .little-text {
