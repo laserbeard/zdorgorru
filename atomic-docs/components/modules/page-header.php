@@ -2,7 +2,7 @@
 
     <div class="page-header">
     
-      <span class="page-header__title"><a href="/" class="page-header-title__logo"><img src="img/logo.png" alt="Моё здоровье" ></a>
+      <span class="page-header__title"><a href="/" class="page-header-title__logo"><img src="img/logo.svg" alt="Моё здоровье" ></a>
           <span class="page-header-title__city"><i>&nbsp;</i>Санкт-Петербург</span>
       </span>
      
