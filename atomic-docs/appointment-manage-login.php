@@ -11,7 +11,7 @@
   </header>
 
 
-  <main class="page-layout__content page-layout__content--with-footer">
+  <main class="page-layout__content page-layout__content--with-footer page-layout__content--login">
     <div class="page-content page-content--with-footer">
 
     <!-- Your content goes here -->

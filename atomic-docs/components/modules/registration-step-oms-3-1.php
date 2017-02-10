@@ -88,7 +88,7 @@
 
 	</ul>
 	<div class="multilevel-menu__load-more">
-		<button class="multilevel-menu__load-more-btn"><i class="multilevel-menu__load-more-btn-icon"></i>показать больше</button>
+		<button class="multilevel-menu__load-more-btn"><i class="multilevel-menu__load-more-btn-icon"></i>Показать больше</button>
 	</div>
 </div>
 <!-- multilevel-menu__result--doctor add multilevel-menu__result--visible after load content for visible-->

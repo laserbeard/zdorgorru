@@ -64,6 +64,15 @@ body {
     position: relative;
 }
 
+.page-layout__content--login{
+   @include breakpoint($sm) {
+
+      background: url(../img/registration-login-form.jpg) no-repeat center bottom;
+
+      
+    }
+}
+
 .page-content.page-content--with-footer{
   position: relative;
   
